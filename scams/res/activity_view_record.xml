@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#21272D"
+    android:orientation="vertical"
+    tools:context=".viewRecordActivity">
+
+    <TextView
+        android:id="@+id/recordHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="10dp"
+        android:height="80dp"
+        android:background="@drawable/myrect"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Attendance Record"
+        android:textColor="#EC17CC"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/subject_DBMS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recordHeader"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="80dp"
+        android:height="50dp"
+        android:background="@drawable/myrect"
+        android:elevation="2dp"
+        android:gravity="center"
+        android:text="DBMS : 0/10"
+        android:textColor="#EE80DD"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/subject_AOA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subject_DBMS"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="80dp"
+        android:height="50dp"
+        android:background="@drawable/myrect"
+        android:gravity="center"
+        android:text="SQL: 0/10"
+        android:textColor="#EE80DD"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/subject_NLP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subject_AOA"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="80dp"
+        android:height="50dp"
+        android:background="@drawable/myrect"
+        android:gravity="center"
+        android:text="AI : 0/10"
+        android:textColor="#EE80DD"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subject_NLP"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/button_shape"
+        android:text="BACK" />
+</LinearLayout>
